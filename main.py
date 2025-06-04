@@ -15,6 +15,7 @@ oa_token = st.secrets["OA_API_KEY"]
 
 # Streamlit UI
 st.title("WebWit")
+st.markdown("**WebWit** is your AI-powered research sidekick! Just drop in a couple of URLs, and it’ll read, digest, and let you quiz the content like a pro.")
 st.sidebar.title("Input")
 
 urls = []

@@ -1,4 +1,4 @@
-# WebWit – Your AI-Powered Research Sidekick!
+# WebWit 
 WebWit lets you drop in a couple of URLs and chat with the content like a pro. It scrapes web pages, summarizes them, and allows you to ask intelligent questions—all powered by OpenAI and LangChain.
 
 Features

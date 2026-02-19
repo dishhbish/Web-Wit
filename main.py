@@ -65,7 +65,7 @@ query = main_placeholder.text_input("Question: ")
 if query:
     if os.path.exists(index_folder):
         embeddings = OpenAIEmbeddings(api_key=oa_token)
-        vectorstore = FAISS.load_local(index_folder, embeddings, allow_dangerous_deserialization=True)
+        vectorstore = FAISS.load_local(index_folder, embeddings)
 
         chain = RetrievalQAWithSourcesChain.from_llm(
             llm=llm,

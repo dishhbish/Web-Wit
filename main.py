@@ -3,7 +3,9 @@
 import os
 import streamlit as st
 import time
-from langchain.chains import RetrievalQAWithSourcesChain
+# from langchain.chains import RetrievalQAWithSourcesChain
+from langchain.chains.qa_with_sources import RetrievalQAWithSourcesChain
+
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import UnstructuredURLLoader
 from langchain_community.embeddings import OpenAIEmbeddings
